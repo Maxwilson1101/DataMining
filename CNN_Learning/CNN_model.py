@@ -76,4 +76,6 @@ X, Y = iterator.get_next()
 
 
 # 创建模型
-# def conv_net(x, n_classes, dropout, reuse, is_training)
+def conv_net(x, n_classes, dropout, reuse, is_training):
+    with tf.variable_scope('ConvNet', reuse=reuse):
+

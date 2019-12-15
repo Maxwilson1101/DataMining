@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def inspect_data(df):
-    pass
+    df = pd.array([1, 2 , 3])
 
 
 def clean_data(df):
